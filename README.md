@@ -6,12 +6,14 @@ This project shows how to deploy a spring boot Rest application in a Docker cont
 
 Let's try to start application with the maven command : ./mvnw spring-boot:run
 
+```
 2017-09-10 15:58:17.223  INFO 8966 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
 2017-09-10 15:58:17.280  INFO 8966 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
 2017-09-10 15:58:17.285  INFO 8966 --- [           main] c.e.s.SpringbootDockerApplication        : Started SpringbootDockerApplication in 2.972 seconds (JVM running for 5.646)
 2017-09-10 15:58:34.554  INFO 8966 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
 2017-09-10 15:58:34.555  INFO 8966 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
 2017-09-10 15:58:34.567  INFO 8966 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 12 ms
+```
 
 To test the application, just do : http://localhost:8080/ping
 
