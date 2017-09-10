@@ -1,0 +1,6 @@
+version: '2'
+services:
+  api-ping:
+    image: springbootdocker
+    ports:
+      - 8383:8080
